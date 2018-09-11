@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { injectGlobal } from "styled-components";
 import { connect } from "react-redux";
-import Flex from "@react-alpha/base.flex";
+import Flex from "@rbu/base/lib/flex";
 import Topbar from "../topbar";
 import Navication from "../navigation";
 import Content from "../content";

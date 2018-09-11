@@ -8,7 +8,7 @@ import theme from "./assets/theme";
 import zh from "./assets/i18n/zh-cn";
 import registerServiceWorker from "./dashboard/registerServiceWorker";
 import "./index.css";
-import Layout from "./dashboard/layout/editor";
+import Layout from "./dashboard/layout/admin";
 
 ReactDOM.render(
   <Provider store={store()}>
